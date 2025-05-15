@@ -69,7 +69,7 @@ Feel free to email me if anything is weird!
 📩 **JohnJGrenham@gmail.com**
 
 ---
-
+Wanna give it a try?
 """)
 
 with open("SAMPLE_EFFECT_LOCATION.csv", "rb") as f:
