@@ -94,6 +94,8 @@ if uploaded_file:
 
 st.markdown("""
 
+
+
 Feel free to email me if anything is weird!  
 📩 **JohnJGrenham@gmail.com**
 """)
