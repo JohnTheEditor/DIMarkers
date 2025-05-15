@@ -48,9 +48,9 @@ def process_sequence_report_from_df(df):
 
     return "\n".join(markers)
 
-st.title("Sequence Report to Marker List")
+st.title("Avid Sequence Report to DI Marker List")
 
-uploaded_file = st.file_uploader("Drop your Sequence Report CSV (UTF-16)", type=["csv"])
+uploaded_file = st.file_uploader("Drop your Sequence Report CSV here.", type=["csv"])
 
 if uploaded_file:
     try:
