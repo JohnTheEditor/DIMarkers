@@ -52,18 +52,19 @@ st.title("Sequence Report to Marker List")
 st.markdown("""
 No more manually typing out all your opticals for your DI Turnovers!
 
-Create a CSV from the Media Composer Sequence Report tool, drop it here, and convert it into a .txt file to import back to Avid.
+Create a CSV from the Media Composer Sequence Report tool, drop it here, and convert it into a `.txt` file to import back to Avid.
 
-Best Practices:
--Dupe your sequence, delete all audio tracks
--Only select "Effects Location List" on your Sequence Report
--Choose CSV (or this won't work!)
+**Best Practices:**  
+- Dupe your sequence, delete all audio tracks  
+- Only select *Effects Location List* on your Sequence Report  
+- Choose CSV (or this won't work!)
 
 It will skip effects like Submasters & Matte Keys that typically wouldn't want to be included anyways.
 
-Feel free email me if anything is weird! JohnJGrenham@gmail.com
+---
 
-
+Feel free to email me if anything is weird!  
+📩 **JohnJGrenham@gmail.com**
 """)
 
 with open("SAMPLE_EFFECT_LOCATION.csv", "rb") as f:
