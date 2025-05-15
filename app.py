@@ -61,7 +61,7 @@ Create a CSV from the Media Composer Sequence Report tool, drop it here, and con
 
 It will skip effects like Submasters & Matte Keys that you typically wouldn't want to be included anyways.
 
-Also, your files won't be stored!
+Your files will never be stored/uploaded/used to train advanced AI Assistant Editors.
 
 ---
 Wanna give it a try?
@@ -93,9 +93,9 @@ if uploaded_file:
         st.error(f"Failed to read or process file: {e}")
 
 st.markdown("""
+---
 
 
-
-Feel free to email me if anything is weird!  
+If anything is weird, feel free to say so!
 📩 **JohnJGrenham@gmail.com**
 """)
