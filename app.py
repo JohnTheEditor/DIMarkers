@@ -66,7 +66,7 @@ Feel free email me if anything is weird! JohnJGrenham@gmail.com
 
 """)
 
-with open("sample_sequence_report.csv", "rb") as f:
+with open("SAMPLE_EFFECT_LOCATION.csv", "rb") as f:
     st.download_button(
         label="Download Sample CSV",
         data=f,
