@@ -63,9 +63,10 @@ It will skip effects like Submasters & Matte Keys that typically wouldn't want t
 
 Feel free email me if anything is weird! JohnJGrenham@gmail.com
 
+
 """)
 
-uploaded_file = st.file_uploader("Drop an Avid Sequence Report CSV here.", type=["csv"])
+uploaded_file = st.file_uploader("Add your CSV here.", type=["csv"])
 
 if uploaded_file:
     try:
