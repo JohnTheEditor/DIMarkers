@@ -59,7 +59,7 @@ Create a CSV from the Media Composer Sequence Report tool, drop it here, and con
 - Only select *Effects Location List* on your Sequence Report  
 - Choose CSV (or this won't work!)
 
-It will skip effects like Submasters & Matte Keys that typically wouldn't want to be included anyways.
+It will skip effects like Submasters & Matte Keys that you typically wouldn't want to be included anyways.
 
 ---
 
