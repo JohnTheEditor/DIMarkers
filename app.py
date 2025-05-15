@@ -66,6 +66,15 @@ Feel free email me if anything is weird! JohnJGrenham@gmail.com
 
 """)
 
+with open("sample_sequence_report.csv", "rb") as f:
+    st.download_button(
+        label="Download Sample CSV",
+        data=f,
+        file_name="SAMPLE_EFFECT_LOCATION.csv",
+        mime="text/csv"
+    )
+
+
 uploaded_file = st.file_uploader("Add your CSV here.", type=["csv"])
 
 if uploaded_file:
