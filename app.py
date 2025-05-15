@@ -64,11 +64,6 @@ It will skip effects like Submasters & Matte Keys that you typically wouldn't wa
 Also, your files won't be stored!
 
 ---
-
-Feel free to email me if anything is weird!  
-📩 **JohnJGrenham@gmail.com**
-
----
 Wanna give it a try?
 """)
 
@@ -96,3 +91,9 @@ if uploaded_file:
 
     except Exception as e:
         st.error(f"Failed to read or process file: {e}")
+
+st.markdown("""
+
+Feel free to email me if anything is weird!  
+📩 **JohnJGrenham@gmail.com**
+""")
