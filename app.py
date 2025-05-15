@@ -48,6 +48,13 @@ def process_sequence_report_from_df(df):
 
     return "\n".join(markers)
 
+st.set_page_config(
+    page_title="DI Marker List Tool",        # 🏷️ This is the tab title
+    page_icon="🎬",                          # 📌 Emoji or URL to an icon image
+    layout="centered",                       # or "wide"
+    initial_sidebar_state="collapsed"
+)
+
 st.title("Sequence Report to Marker List")
 st.markdown("""
 No more manually typing out all your opticals for your DI Turnovers!
