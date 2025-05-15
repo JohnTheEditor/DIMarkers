@@ -67,6 +67,9 @@ Also, your files won't be stored!
 
 Feel free to email me if anything is weird!  
 📩 **JohnJGrenham@gmail.com**
+
+---
+
 """)
 
 with open("SAMPLE_EFFECT_LOCATION.csv", "rb") as f:
