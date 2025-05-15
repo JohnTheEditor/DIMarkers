@@ -61,6 +61,8 @@ Create a CSV from the Media Composer Sequence Report tool, drop it here, and con
 
 It will skip effects like Submasters & Matte Keys that you typically wouldn't want to be included anyways.
 
+Also, your files won't be stored!
+
 ---
 
 Feel free to email me if anything is weird!  
