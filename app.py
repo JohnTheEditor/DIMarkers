@@ -102,8 +102,9 @@ if uploaded_file:
 st.markdown("""
 ---
 
-Like this? You might also like my [Easy Sync AAF Tool](https://syncaaftool.streamlit.app/) as well!
+Like this? You might also dig this [Easy Sync AAF Tool](https://syncaaftool.streamlit.app/) as well.
 
 If anything is weird, feel free to say so!
-📩 **JohnJGrenham@gmail.com**
+    
+**JohnJGrenham@gmail.com**
 """)
